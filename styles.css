@@ -1,0 +1,48 @@
+body{
+    background: rgb(2,0,36);
+background: linear-gradient(20deg, rgba(2,0,36,1) 0%, rgba(119,151,210,1) 100%, rgba(0,212,255,1) 100%);
+
+}
+h1{
+    color: blanchedalmond;
+}
+
+
+#navbar{
+    background:green;
+}
+#navbar a{
+    color: aquamarine;
+}
+
+
+#about-me{
+    background-image: linear-gradient(gray) 
+}
+
+
+ul li{
+    list-style: none;
+}
+
+ul li::before{
+    content: "_";
+}
+
+
+.secondary-titles{
+    background: fuchsia;
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    border-radius: 50px;
+    
+}
+
+
+.secondary-titles:hover{
+    background: whitesmoke;
+    box-shadow: 50px greenyellow
+}
+
+
