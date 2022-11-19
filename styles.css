@@ -1,10 +1,14 @@
 body{
+    margin: 0px;
+    padding: 0px;
     background: rgb(2,0,36);
 background: linear-gradient(20deg, rgba(2,0,36,1) 0%, rgba(119,151,210,1) 100%, rgba(0,212,255,1) 100%);
 
 }
 h1{
     color: blanchedalmond;
+    padding: 5px;
+    margin: 10px;
 }
 
 
@@ -17,7 +21,13 @@ h1{
 
 
 #about-me{
-    background-image: linear-gradient(gray) 
+    background-image: linear-gradient(gray);
+    text-align: center;
+}
+.pretty-me{
+    width: 200px;
+    height: 300px;
+    border: 10px rgba(0,212,255,1);
 }
 
 
